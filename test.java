@@ -9,7 +9,7 @@ public class test {
         System.out.println("Hello World");
 
         int hello = 1;
-        int hatdog = 3;
+        int hatdog = 4;
 
             System.out.println(hello + hatdog);
         
@@ -24,3 +24,4 @@ public class test {
 
 
 }
+
