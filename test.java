@@ -49,8 +49,23 @@ public class test {
 
        } while (answer != 'n');
       
+       System.out.println("Please Enter A Number");
+
+       int num = 0;
+
+       num = input.nextInt();
+
+       switch (num) {
+        case 1 -> System.out.println("You Entered 1");
+        case 2 -> System.out.println("You Entered 2");
+        case 3 -> System.out.println("You Entered 3");
+
+        default -> System.out.println("Out of the choices");
+       }
 
     }
+
+    
 
 
 }
